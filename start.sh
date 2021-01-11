@@ -1,2 +1,5 @@
 #!/bin/bash
-apt-get update
+sudo apt-get install zsh -y
+sudo curl -L http://install.ohmyz.sh | sh
+sudo apt install git -y
+
