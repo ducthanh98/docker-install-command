@@ -8,3 +8,5 @@ sudo apt -y install nodejs
 
 sudo npm install -g @vue/cli
 
+sudo apt install docker.io
+sudo chmod 666 /var/run/docker.sock
