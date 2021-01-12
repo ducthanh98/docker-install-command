@@ -10,3 +10,7 @@ sudo npm install -g @vue/cli
 
 sudo apt install docker.io
 sudo chmod 666 /var/run/docker.sock
+
+sudo apt-get update && sudo apt-get install ibus-bamboo –y
+
+
