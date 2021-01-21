@@ -5,6 +5,9 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install zsh -y
 sudo curl -L http://install.ohmyz.sh | sh
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+chsh -s $(which zsh)
+
+
 sudo apt install git -y
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
