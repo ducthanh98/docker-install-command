@@ -17,6 +17,7 @@ chsh -s $(which zsh)
 
 
 sudo apt install -y git
+git config --global credential.helper store
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt -y install nodejs
