@@ -14,7 +14,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 chsh -s $(which zsh)
 
 
-sudo apt install git -y
+sudo apt install -y git
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt -y install nodejs
