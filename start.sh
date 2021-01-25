@@ -11,6 +11,7 @@ sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
 sudo apt-get update
 sudo apt-get install -y indicator-sysmonitor
 
+sudo apt install -y golang
 
 sudo apt-get install -y zsh
 sudo curl -L http://install.ohmyz.sh | sh
